@@ -1,0 +1,26 @@
+.button-web-app {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration-line: none;
+  text-align: left;
+  &-text {
+    margin-left: 4px;
+    &-smaller {
+      text-align: left;
+      font-size: 8px;
+      white-space: nowrap;
+    }
+    &-larger {
+      text-align: left;
+      font-size: 16px;
+      white-space: nowrap;
+    }
+  }
+  &-emoji {
+    margin-left: 4px;
+    font-size: 28px;
+    padding-left: 3px;
+  }
+}
