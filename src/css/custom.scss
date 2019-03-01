@@ -3,9 +3,10 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  text-decoration-line: none;
+  text-decoration: none;
   text-align: left;
   &-text {
+    text-decoration: none;
     margin-left: 4px;
     &-smaller {
       text-align: left;
