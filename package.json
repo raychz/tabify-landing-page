@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "parcel src/index.html --open",
-    "build": "parcel build src/index.html --no-minify"
+    "build": "parcel build src/index.html --no-minify --detailed-report"
   },
   "devDependencies": {
     "firebase-tools": "^6.1.0",
@@ -10,6 +10,5 @@
     "sass": "^1.17.2"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
   }
 }
