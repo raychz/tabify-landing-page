@@ -52,5 +52,33 @@
   background-color: rgba(0, 0, 0, 0.75);
 }
 .features-02-pad {
-  padding: 125px 0 125px;
+  padding: 50px 0 50px;
+}
+
+.container_order {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
+  max-width: 1080px;
+  position: relative;
+}
+.footer-02-order {
+  background-color: #1e1e1e;
+  padding: 40px 0;
+  position: relative;
+}
+
+.logo_img_size {
+  max-height: 1000px;
+  max-width: 1000px;
+}
+.headerafterpadding {
+  position: relative;
+  z-index: 100;
+  padding-bottom: 200px;
+}
+.center_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
