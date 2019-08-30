@@ -1,3 +1,6 @@
+require('../css/main.css');
+require('../css/custom.scss');
+
 /*!
  * clipboard.js v2.0.0
  * https://zenorocha.github.io/clipboard.js
