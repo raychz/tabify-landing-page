@@ -1,13 +1,30 @@
 {
   "scripts": {
-    "dev": "parcel src/index.html --open",
-    "build": "parcel build src/index.html --no-minify"
+    "dev": "webpack --mode development ./src/js/main.js",
+    "build": "webpack --mode production ./src/js/main.js"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.2.0",
     "firebase-tools": "^6.1.0",
-    "parcel-bundler": "^1.11.0",
-    "parcel-plugin-clean-dist": "^0.0.6",
-    "sass": "^1.17.2"
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "sugarss": "^2.0.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
   },
   "dependencies": {
     "jquery": "^3.3.1"
