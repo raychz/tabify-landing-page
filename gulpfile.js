@@ -227,6 +227,8 @@ const startServer = function (done) {
 
 	// Initialize BrowserSync
 	browserSync.init({
+		port: 7531,
+		notify: false,
 		server: {
 			baseDir: paths.reload
 		}
