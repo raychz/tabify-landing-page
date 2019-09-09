@@ -69,7 +69,7 @@
   background-color: rgba(0, 0, 0, 0.75);
 }
 .features-02-pad {
-  padding: 50px 0 50px;
+  padding: 25px 0 25px;
 }
 
 .container_order {
@@ -92,7 +92,7 @@
 .headerafterpadding {
   position: relative;
   z-index: 100;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 .center_image {
   display: block;
@@ -104,4 +104,8 @@
   background-color: transparent;
   border-color: #DB5E58;
   color: #DB5E58;
+}
+
+.fixed_top_padding {
+  padding-top: 0;
 }
