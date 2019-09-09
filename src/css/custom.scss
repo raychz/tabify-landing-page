@@ -100,12 +100,18 @@
   margin-right: auto;
 }
 
-.button--salmon-outline {
-  background-color: transparent;
-  border-color: #DB5E58;
-  color: #DB5E58;
+.button--white-outline {
+  background-color: rgb(61, 60, 60);
+  border-color: white;
+  color: white;
 }
 
 .fixed_top_padding {
   padding-top: 0;
+}
+
+.state-opened-menu .nav-01__list {
+  visibility: visible;
+  opacity: 1;
+  background-color: #DB5E58;
 }
