@@ -101,7 +101,7 @@
 }
 
 .button--white-outline {
-  background-color: rgb(61, 60, 60);
+  background-color: #DB5E58;
   border-color: white;
   color: white;
 }
@@ -113,5 +113,11 @@
 .state-opened-menu .nav-01__list {
   visibility: visible;
   opacity: 1;
-  background-color: #DB5E58;
+  background-color: white; 
+}
+
+.rest_img_size {
+  max-height: 100px;
+  max-width: 100px;
+
 }
