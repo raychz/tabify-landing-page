@@ -130,3 +130,20 @@
   padding: 20px 0;
   padding-bottom: 1px;
 }
+
+.center_align {
+  text-align: center
+}
+
+.bottom_padding {
+  padding-bottom: 0px
+}
+
+html {
+  height: 100%;
+  font-size: 20px;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+}
