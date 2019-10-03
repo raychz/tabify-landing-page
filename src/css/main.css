@@ -124,7 +124,7 @@ textarea:focus {
   max-width: 900px;
 }
 .container--large {
-  max-width: 1200px;
+  max-width: 1200px; 
 }
 .container--xlarge {
   max-width: 1600px;
@@ -438,7 +438,7 @@ pre {
   fill: #4d61fc;
 }
 .button--accent-bg {
-  background-color: #4d61fc;
+  background-color: #DB5E58;
   color: white;
 }
 .button--accent-bg .icon svg *,
@@ -558,7 +558,7 @@ pre {
   fill: #f90473;
 }
 .button--alt-accent-bg {
-  background-color: #f35b1e; /*color of subscribe button*/
+  background-color: #DB5E58; /*color of subscribe button*/
   color: white;
 }
 .button--alt-accent-bg .icon svg *,
@@ -5812,7 +5812,7 @@ button.button {
 }
 
 .team-04__person {
-  width: calc(100% / 5);
+  width: calc(100% / 6);
   padding: 45px 0;
   box-sizing: border-box;
   border-right: 1px solid rgba(151, 151, 151, 0.2);
@@ -8927,7 +8927,8 @@ button.button {
 .cta_form-03 {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #f35b1e;
+  background-color: #DB5E58;
+  position: relative;
 } /*background color for email sign up*/
 
 .cta_form-03__wrapper {
@@ -14001,7 +14002,7 @@ button.button {
   bottom: -20px;
   height: 2px;
   width: 30px;
-  background-color: #f35b1e;
+  background-color: #DB5E58;
 } /* color of divider lines */
 @media (max-width: 600px) {
   .features-02__number {

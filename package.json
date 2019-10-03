@@ -1,13 +1,30 @@
 {
+  "name": "tabify-landing-page",
+  "version": "0.0.1",
+  "description": "Tabify's landing page.",
   "scripts": {
-    "dev": "parcel src/index.html --open",
-    "build": "parcel build src/index.html --no-minify"
+    "dev": "gulp watch",
+    "build": "gulp"
   },
   "devDependencies": {
+    "browser-sync": "2.26.3",
+    "del": "3.0.0",
     "firebase-tools": "^6.1.0",
-    "parcel-bundler": "^1.11.0",
-    "parcel-plugin-clean-dist": "^0.0.6",
-    "sass": "^1.17.2"
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-cssnano": "2.1.3",
+    "gulp-flatmap": "1.0.2",
+    "gulp-header": "2.0.5",
+    "gulp-jshint": "2.1.0",
+    "gulp-optimize-js": "1.1.0",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-svgmin": "2.1.0",
+    "gulp-terser": "1.1.7",
+    "jshint": "2.9.6",
+    "jshint-stylish": "2.2.1",
+    "lazypipe": "1.0.1"
   },
   "dependencies": {
     "jquery": "^3.3.1"
