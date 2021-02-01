@@ -21,7 +21,7 @@
     "gulp-rename": "1.4.0",
     "gulp-sass": "4.0.2",
     "gulp-svgmin": "2.1.0",
-    "gulp-terser": "1.1.7",
+    "gulp-terser": "2.0.1",
     "jshint": "2.9.6",
     "jshint-stylish": "2.2.1",
     "lazypipe": "1.0.1"
